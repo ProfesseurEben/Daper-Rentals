@@ -21,7 +21,8 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Bride Dresses](link-to-your-image2.jpg)  
+    ![Bride Dresses]
+    https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Bride%20dress.png?raw=true  
     <strong>Bride Dresses</strong>  
     Stylish and elegant bride dresses for your special day.
   </div>
@@ -38,13 +39,15 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 <div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin: 10px;">
-    ![Traditional Outfits for Men](link-to-your-image3.jpg)  
+    ![Traditional Outfits for Men]
+    https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Tradditional%20outfit%20for%20man.png?raw=true 
     <strong>Traditional Outfits for Men</strong>  
     Authentic Rwandan cultural attire.
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Traditional Outfits for Women](link-to-your-image3.jpg)  
+    ![Traditional Outfits for Women]
+    https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true 
     <strong>Traditional Outfits for Women</strong>  
     Authentic Rwandan cultural attire.
   </div>
