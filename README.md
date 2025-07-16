@@ -79,7 +79,7 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
     </div>
 
   <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/e.jpg?raw=true" alt="Traditional Outfits for Men">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true" alt="Traditional Outfits for Men">
         <h3>Men suites</h3>
         <p>Stylish and elegant Men suites for your special day.</p>
     </div>
