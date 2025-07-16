@@ -1,17 +1,36 @@
-# Dapper-Rentals-
-Daper Rentals is Kigali’s go-to platform for renting elegant wedding suits, dresses, traditional outfits, and ceremonial items. Fully digital and delivery-based, we offer high-quality, affordable rentals with cultural pride and modern convenience—making fashion and tradition accessible to all.
 # Dapper Rentals
 
-Dapper Rentals is Rwanda's premier destination for elegant fashion and ceremonial rentals, offering a fully digital experience for every occasion. 
+Dapper Rentals is Rwanda's premier destination for elegant fashion and ceremonial rentals, offering a fully digital experience for every occasion.
 
 ## Elegant Rentals for Every Occasion
+
+![Elegant Rentals](link-to-your-image1.jpg)
 
 Discover a wide selection of wedding suits, traditional outfits, and ceremonial items. Our professional quality is delivered directly to your doorstep.
 
 ### Our Offerings
-- **Wedding Suits**: Stylish and elegant suits for your special day.
-- **Traditional Outfits**: Authentic Rwandan cultural attire.
-- **Accessories**: Complete your look with our range of accessories.
+
+<div style="display: flex; justify-content: space-around;">
+
+  <div style="text-align: center; margin: 10px;">
+    ![Wedding Suits](link-to-your-image2.jpg)  
+    <strong>Wedding Suits</strong>  
+    Stylish and elegant suits for your special day.
+  </div>
+
+  <div style="text-align: center; margin: 10px;">
+    ![Traditional Outfits](link-to-your-image3.jpg)  
+    <strong>Traditional Outfits</strong>  
+    Authentic Rwandan cultural attire.
+  </div>
+
+  <div style="text-align: center; margin: 10px;">
+    ![Accessories](link-to-your-image4.jpg)  
+    <strong>Accessories</strong>  
+    Complete your look with our range of accessories.
+  </div>
+
+</div>
 
 ### Why Choose Us?
 - **Fully Digital Experience**: Browse, book, and pay online without visiting physical stores.
