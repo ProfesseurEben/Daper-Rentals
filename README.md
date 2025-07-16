@@ -26,7 +26,8 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Women Dresses](link-to-your-image2.jpg)  
+    ![Women Dresses]
+    https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true  
     <strong>Women Dresses</strong>  
     Stylish and elegant women dresses for your special day.
   </div>
