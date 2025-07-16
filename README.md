@@ -14,7 +14,8 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 <div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin: 10px;">
-    ![Wedding Suits](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true)  
+    ![Wedding Suits]
+    (https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true)  
     <strong>Wedding Suits</strong>  
     Stylish and elegant suits for your special day.
   </div>
