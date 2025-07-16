@@ -1,3 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Home Rentals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #343a40;
+            color: white;
+            padding: 10px 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            background-image: url('https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/a.jpg?raw=true'); /* Example image */
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Home Rentals</h1>
+    <nav>
+        <a href="#catalog">Catalog</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#book" class="cta-button">Book Now</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div>
+        <h2>Elegant Rentals for Every Occasion</h2>
+        <p>Discover Rwanda's premier destination for wedding suits, traditional outfits, and ceremonial items.</p>
+        <a href="#collection" class="cta-button">Browse Collection</a>
+    </div>
+</div>
+
+<div class="content">
+    <h2>Welcome to Your Home Rentals</h2>
+    <p>Professional quality, delivered to your doorstep.</p>
+</div>
+
+</body>
+</html>
 # Dapper Rentals
 
 Dapper Rentals is Rwanda's premier destination for elegant fashion and ceremonial rentals, offering a fully digital experience for every occasion.
