@@ -88,6 +88,7 @@
 
 </body>
 </html>
+
 # Dapper Rentals
 
 Dapper Rentals is Rwanda's premier destination for elegant fashion and ceremonial rentals, offering a fully digital experience for every occasion.
