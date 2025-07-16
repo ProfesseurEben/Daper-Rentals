@@ -5,7 +5,7 @@ Dapper Rentals is Rwanda's premier destination for elegant fashion and ceremonia
 ## Elegant Rentals for Every Occasion
 
 ![Elegant Rentals]
-(https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/abcd.jpg?raw=true)
+(https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/a.jpg?raw=true)
 
 This image features a beautiful couple at their wedding.
 
@@ -61,37 +61,37 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 <div class="container">
 
   <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true" alt="Wedding Suits">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/b..jpg?raw=true" alt="Wedding Suits">
         <h3>Wedding Suits</h3>
         <p>Stylish and elegant suits for your special day.</p>
     </div>
 
   <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Bride%20dress.png?raw=true" alt="Bride Dresses">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/c.jpg?raw=true" alt="Bride Dresses">
         <h3>Bride Dresses</h3>
         <p>Stylish and elegant bride dresses for your special day.</p>
     </div>
 
   <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true" alt="Women Dresses">
-        <h3>Women Dresses</h3>
-        <p>Stylish and elegant women dresses for your special day.</p>
-    </div>
-
-  <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Tradditional%20outfit%20for%20man.png?raw=true" alt="Traditional Outfits for Men">
-        <h3>Traditional Outfits for Men</h3>
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/d.jpg?raw=true" alt="Women Dresses">
+        <h3>Traditional outfits</h3>
         <p>Authentic Rwandan cultural attire.</p>
     </div>
 
   <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true" alt="Traditional Outfits for Women">
-        <h3>Traditional Outfits for Women</h3>
-        <p>Authentic Rwandan cultural attire.</p>
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/e.jpg?raw=true" alt="Traditional Outfits for Men">
+        <h3>Men suites</h3>
+        <p>Stylish and elegant Men suites for your special day.</p>
     </div>
 
   <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Screenshot%202025-07-15%20165156.png?raw=true" alt="Accessories">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/h.jpg?raw=true" alt="Traditional Outfits for Women">
+        <h3>Women dresses</h3>
+        <p>Stylish and elegant Women dresses for your special day.</p>
+    </div>
+
+  <div class="card">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/f.png?raw=true" alt="Accessories">
         <h3>Accessories</h3>
         <p>Complete your look with our range of accessories.</p>
     </div>
