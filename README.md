@@ -35,17 +35,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
             text-align: center;
             position: relative;
         }
         .hero h2 {
             font-size: 3em;
             margin: 0;
+            color: white; /* Change to white */
         }
         .hero p {
             font-size: 1.5em;
             margin: 10px 0;
+            color: black; /* Change to black */
         }
         .cta-button {
             padding: 10px 20px;
@@ -63,7 +64,7 @@
         .container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center; /* Center align the cards */
             padding: 20px;
         }
         .card {
@@ -71,7 +72,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             margin: 10px;
-            width: 300px;
+            width: 300px; /* Fixed width for cards */
             text-align: center;
             overflow: hidden;
             transition: transform 0.3s;
@@ -130,37 +131,37 @@
 
 <div class="container">
 
-    <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/b.jpg?raw=true" alt="Wedding Suits">
         <h3>Wedding Suits</h3>
         <p>Stylish and elegant suits for your special day.</p>
     </div>
 
-    <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/c.jpg?raw=true" alt="Bride Dresses">
         <h3>Bride Dresses</h3>
         <p>Stylish and elegant bride dresses for your special day.</p>
     </div>
 
-    <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/d.jpg?raw=true" alt="Traditional Outfits">
         <h3>Traditional Outfits</h3>
         <p>Authentic Rwandan cultural attire.</p>
     </div>
 
-    <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true" alt="Men's Suits">
         <h3>Men's Suits</h3>
         <p>Stylish and elegant men's suits for your special day.</p>
     </div>
 
-    <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/h.jpg?raw=true" alt="Women's Dresses">
         <h3>Women's Dresses</h3>
         <p>Stylish and elegant women's dresses for your special day.</p>
     </div>
 
-    <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/f.png?raw=true" alt="Accessories">
         <h3>Accessories</h3>
         <p>Complete your look with our range of accessories.</p>
