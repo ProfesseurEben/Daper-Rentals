@@ -14,22 +14,21 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 <div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin: 10px;">
-    ![Wedding Suits]
-    (https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true)  
+    ![Wedding Suits](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true)  
     <strong>Wedding Suits</strong>  
     Stylish and elegant suits for your special day.
   </div>
 
-   <div style="text-align: center; margin: 10px;">
-    ![Bride dresses](link-to-your-image2.jpg)  
-    <strong>Bride dresses</strong>  
-    Stylish and elegant Bride dresses for your special day.
+  <div style="text-align: center; margin: 10px;">
+    ![Bride Dresses](link-to-your-image2.jpg)  
+    <strong>Bride Dresses</strong>  
+    Stylish and elegant bride dresses for your special day.
   </div>
 
-<div style="text-align: center; margin: 10px;">
-    ![Women dresses](link-to-your-image2.jpg)  
-    <strong>Women dresses</strong>  
-    Stylish and elegant Women dresses for your special day.
+  <div style="text-align: center; margin: 10px;">
+    ![Women Dresses](link-to-your-image2.jpg)  
+    <strong>Women Dresses</strong>  
+    Stylish and elegant women dresses for your special day.
   </div>
 
 </div>
@@ -37,14 +36,14 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 <div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin: 10px;">
-    ![Traditional Outfits for men](link-to-your-image3.jpg)  
-    <strong>Traditional Outfits for men</strong>  
+    ![Traditional Outfits for Men](link-to-your-image3.jpg)  
+    <strong>Traditional Outfits for Men</strong>  
     Authentic Rwandan cultural attire.
   </div>
 
-<div style="text-align: center; margin: 10px;">
-    ![Traditional Outfits for women](link-to-your-image3.jpg)  
-    <strong>Traditional Outfits for women</strong>  
+  <div style="text-align: center; margin: 10px;">
+    ![Traditional Outfits for Women](link-to-your-image3.jpg)  
+    <strong>Traditional Outfits for Women</strong>  
     Authentic Rwandan cultural attire.
   </div>
 
@@ -54,7 +53,7 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
     Complete your look with our range of accessories.
   </div>
 
- </div>
+</div>
 
 ### Why Choose Us?
 - **Fully Digital Experience**: Browse, book, and pay online without visiting physical stores.
