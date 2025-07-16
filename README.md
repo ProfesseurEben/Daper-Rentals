@@ -32,7 +32,9 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
     Stylish and elegant Women dresses for your special day.
   </div>
 
-  <div style="display: flex; justify-content: space-around;">
+</div>
+
+<div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin: 10px;">
     ![Traditional Outfits for men](link-to-your-image3.jpg)  
@@ -52,7 +54,7 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
     Complete your look with our range of accessories.
   </div>
 
-</div>
+ </div>
 
 ### Why Choose Us?
 - **Fully Digital Experience**: Browse, book, and pay online without visiting physical stores.
