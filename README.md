@@ -4,7 +4,7 @@ Dapper Rentals is Rwanda's premier destination for elegant fashion and ceremonia
 
 ## Elegant Rentals for Every Occasion
 
-![Elegant Rentals](link-to-your-image1.jpg)
+![Elegant Rentals](link-to-your-abcd.jpg)
 
 Discover a wide selection of wedding suits, traditional outfits, and ceremonial items. Our professional quality is delivered directly to your doorstep.
 
