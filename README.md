@@ -50,7 +50,8 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Accessories](link-to-your-image4.jpg)  
+    ![Accessories]
+    https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Screenshot%202025-07-15%20165156.png?raw=true  
     <strong>Accessories</strong>  
     Complete your look with our range of accessories.
   </div>
