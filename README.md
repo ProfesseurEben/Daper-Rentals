@@ -19,9 +19,29 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
     Stylish and elegant suits for your special day.
   </div>
 
+   <div style="text-align: center; margin: 10px;">
+    ![Bride dresses](link-to-your-image2.jpg)  
+    <strong>Bride dresses</strong>  
+    Stylish and elegant Bride dresses for your special day.
+  </div>
+
+<div style="text-align: center; margin: 10px;">
+    ![Women dresses](link-to-your-image2.jpg)  
+    <strong>Women dresses</strong>  
+    Stylish and elegant Women dresses for your special day.
+  </div>
+
+  <div style="display: flex; justify-content: space-around;">
+
   <div style="text-align: center; margin: 10px;">
-    ![Traditional Outfits](link-to-your-image3.jpg)  
-    <strong>Traditional Outfits</strong>  
+    ![Traditional Outfits for men](link-to-your-image3.jpg)  
+    <strong>Traditional Outfits for men</strong>  
+    Authentic Rwandan cultural attire.
+  </div>
+
+<div style="text-align: center; margin: 10px;">
+    ![Traditional Outfits for women](link-to-your-image3.jpg)  
+    <strong>Traditional Outfits for women</strong>  
     Authentic Rwandan cultural attire.
   </div>
 
