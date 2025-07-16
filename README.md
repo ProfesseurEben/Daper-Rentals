@@ -11,9 +11,6 @@ This image features a beautiful couple at their wedding.
 
 Discover a wide selection of wedding suits, traditional outfits, and ceremonial items. Our professional quality is delivered directly to your doorstep.
 
-### Our Offerings
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
