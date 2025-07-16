@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +28,7 @@
             margin: 0 15px;
         }
         .hero {
-            background-image: url('https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/a.jpg?raw=true'); /* Example image */
+            background-image: url('https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/a.jpg?raw=true');
             background-size: cover;
             background-position: center;
             height: 60vh;
@@ -59,6 +60,33 @@
             padding: 20px;
             text-align: center;
         }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .card p {
+            padding: 0 10px 10px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -86,99 +114,41 @@
     <p>Professional quality, delivered to your doorstep.</p>
 </div>
 
-</body>
-</html>
-
-# Dapper Rentals
-
-Dapper Rentals is Rwanda's premier destination for elegant fashion and ceremonial rentals, offering a fully digital experience for every occasion.
-
-## Elegant Rentals for Every Occasion
-
-![Elegant Rentals]
-(https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/a.jpg?raw=true)
-
-This image features a beautiful couple at their wedding.
-
-Discover a wide selection of wedding suits, traditional outfits, and ceremonial items. Our professional quality is delivered directly to your doorstep.
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offerings</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .card {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            width: 300px;
-            text-align: center;
-            overflow: hidden;
-        }
-        .card img {
-            width: 100%;
-            height: auto;
-        }
-        .card h3 {
-            margin: 10px 0;
-            font-size: 1.5em;
-        }
-        .card p {
-            padding: 0 10px 10px;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-
 <h2>Our Offerings</h2>
 
 <div class="container">
 
-  <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/b..jpg?raw=true" alt="Wedding Suits">
+<div class="card">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/b.jpg?raw=true" alt="Wedding Suits">
         <h3>Wedding Suits</h3>
         <p>Stylish and elegant suits for your special day.</p>
     </div>
 
-  <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/c.jpg?raw=true" alt="Bride Dresses">
         <h3>Bride Dresses</h3>
         <p>Stylish and elegant bride dresses for your special day.</p>
     </div>
 
-  <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/d.jpg?raw=true" alt="Women Dresses">
-        <h3>Traditional outfits</h3>
+<div class="card">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/d.jpg?raw=true" alt="Traditional Outfits">
+        <h3>Traditional Outfits</h3>
         <p>Authentic Rwandan cultural attire.</p>
     </div>
 
-  <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true" alt="Traditional Outfits for Men">
-        <h3>Men suites</h3>
-        <p>Stylish and elegant Men suites for your special day.</p>
+        <h3>Men's Suits</h3>
+        <p>Stylish and elegant men's suits for your special day.</p>
     </div>
 
-  <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/h.jpg?raw=true" alt="Traditional Outfits for Women">
-        <h3>Women dresses</h3>
-        <p>Stylish and elegant Women dresses for your special day.</p>
+        <h3>Women's Dresses</h3>
+        <p>Stylish and elegant women's dresses for your special day.</p>
     </div>
 
-  <div class="card">
+<div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/f.png?raw=true" alt="Accessories">
         <h3>Accessories</h3>
         <p>Complete your look with our range of accessories.</p>
@@ -186,45 +156,52 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 
 </div>
 
+<h2>Why Choose Us?</h2>
+<ul>
+    <li><strong>Fully Digital Experience:</strong> Browse, book, and pay online without visiting physical stores.</li>
+    <li><strong>Doorstep Delivery:</strong> Enjoy professional delivery service across Rwanda, ensuring timely arrivals.</li>
+    <li><strong>Quality Guarantee:</strong> All items are maintained to the highest standards.</li>
+    <li><strong>Cultural Pride:</strong> Celebrate Rwandan traditions with pride.</li>
+    <li><strong>Affordable Luxury:</strong> High-end fashion accessible without breaking the bank.</li>
+    <li><strong>Friendly Support:</strong> Our dedicated team is here to help you find the perfect outfit for any occasion.</li>
+</ul>
+
+<h2>What Our Clients Say</h2>
+<p>Real stories from satisfied customers who trusted Dapper Rentals for their special moments.</p>
+
+<h2>Get Started</h2>
+<p>Join hundreds of happy customers and book your perfect outfit today!</p>
+<ul>
+    <li><a href="#collection">Browse Collection</a></li>
+    <li><a href="#book">Start Booking</a></li>
+</ul>
+
+<hr>
+
+<h3>Contact Us</h3>
+<p>Email: hello@dapperrentals.rw</p>
+<p>Phone: +250 123 456 789</p>
+
+<h3>Quick Links</h3>
+<ul>
+    <li>Browse Catalog</li>
+    <li>Our Services</li>
+    <li>About Us</li>
+</ul>
+
+<h3>Categories</h3>
+<ul>
+    <li>Wedding Suits</li>
+    <li>Women's Dresses</li>
+    <li>Traditional Outfits</li>
+    <li>Accessories</li>
+</ul>
+
+<footer>
+    <p>Dapper Rentals</p>
+    <p>Rwanda's trusted platform for elegant fashion and ceremonial rentals.</p>
+    <p>© 2024 Dapper Rentals. All rights reserved. Making fashion accessible to all.</p>
+</footer>
+
 </body>
 </html>
-
-### Why Choose Us?
-- **Fully Digital Experience**: Browse, book, and pay online without visiting physical stores.
-- **Doorstep Delivery**: Enjoy professional delivery service across Rwanda, ensuring timely arrivals.
-- **Quality Guarantee**: All items are maintained to the highest standards.
-- **Cultural Pride**: Celebrate Rwandan traditions with pride.
-- **Affordable Luxury**: High-end fashion accessible without breaking the bank.
-- **Friendly Support**: Our dedicated team is here to help you find the perfect outfit for any occasion.
-
-### What Our Clients Say
-Real stories from satisfied customers who trusted Dapper Rentals for their special moments.
-
-## Get Started
-Join hundreds of happy customers and book your perfect outfit today!
-
-- **Browse Collection**: [Link to collection]
-- **Start Booking**: [Link to booking]
-
----
-
-**Contact Us**:  
-Email: hello@dapperrentals.rw  
-Phone: +250 123 456 789  
-
-**Quick Links**:  
-- Browse Catalog  
-- Our Services  
-- About Us  
-
-**Categories**:  
-- Wedding Suits  
-- Women's Dresses  
-- Traditional Outfits  
-- Accessories  
-
----
-
-**Dapper Rentals**  
-Rwanda's trusted platform for elegant fashion and ceremonial rentals.  
-© 2024 Dapper Rentals. All rights reserved. Making fashion accessible to all.
