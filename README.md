@@ -18,19 +18,19 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 <div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin: 10px;">
-    ![Wedding Suits](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true)  
+    <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true" alt="Wedding Suits" style="width: 300px; height: auto;">  
     <strong>Wedding Suits</strong>  
     Stylish and elegant suits for your special day.
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Bride Dresses](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Bride%20dress.png?raw=true)  
+    <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Bride%20dress.png?raw=true" alt="Bride Dresses" style="width: 300px; height: auto;">  
     <strong>Bride Dresses</strong>  
     Stylish and elegant bride dresses for your special day.
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Women Dresses](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true)  
+    <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true" alt="Women Dresses" style="width: 300px; height: auto;">  
     <strong>Women Dresses</strong>  
     Stylish and elegant women dresses for your special day.
   </div>
@@ -40,19 +40,19 @@ Discover a wide selection of wedding suits, traditional outfits, and ceremonial 
 <div style="display: flex; justify-content: space-around;">
 
   <div style="text-align: center; margin: 10px;">
-    ![Traditional Outfits for Men](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Tradditional%20outfit%20for%20man.png?raw=true)  
+    <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Tradditional%20outfit%20for%20man.png?raw=true" alt="Traditional Outfits for Men" style="width: 300px; height: auto;">  
     <strong>Traditional Outfits for Men</strong>  
     Authentic Rwandan cultural attire.
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Traditional Outfits for Women](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true)  
+    <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Imikenyero%20y'%20abagore.png?raw=true" alt="Traditional Outfits for Women" style="width: 300px; height: auto;">  
     <strong>Traditional Outfits for Women</strong>  
     Authentic Rwandan cultural attire.
   </div>
 
   <div style="text-align: center; margin: 10px;">
-    ![Accessories](https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Screenshot%202025-07-15%20165156.png?raw=true)  
+    <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Screenshot%202025-07-15%20165156.png?raw=true" alt="Accessories" style="width: 300px; height: auto;">  
     <strong>Accessories</strong>  
     Complete your look with our range of accessories.
   </div>
