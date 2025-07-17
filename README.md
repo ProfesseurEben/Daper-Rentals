@@ -41,12 +41,12 @@
         .hero h2 {
             font-size: 3em;
             margin: 0;
-            color: white; /* Change to white */
+            color: #FF4500; /* Change to reddish */
         }
         .hero p {
             font-size: 1.5em;
             margin: 10px 0;
-            color: black; /* Change to black */
+            color: #FF4500; /* Change to reddish */
         }
         .cta-button {
             padding: 10px 20px;
@@ -132,7 +132,7 @@
 <div class="container">
 
 <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/b.jpg?raw=true" alt="Wedding Suits">
+        <img src="https://example.com/path-to-your-wedding-suits-image.jpg" alt="Wedding Suits">
         <h3>Wedding Suits</h3>
         <p>Stylish and elegant suits for your special day.</p>
     </div>
