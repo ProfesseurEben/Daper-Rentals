@@ -131,7 +131,7 @@
 <div class="container">
 
 <div class="card">
-        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/b..jpg?raw=true" alt="Wedding Suits">
+        <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/B.jpg?raw=true" alt="Wedding Suits">
         <h3>Wedding Suits</h3>
         <p>Stylish and elegant suits for your special day.</p>
     </div>
