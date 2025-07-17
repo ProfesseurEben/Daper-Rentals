@@ -359,7 +359,7 @@
                 })
                 .catch(error => {
                     console.error('Error:', error);
-                    alert('There was an error booking your item. Please try to call this number 0783 217 215 for further help.');
+                    alert('There was an error in booking your item. Please try to call this number 0783 217 215 for further help.');
                 });
             } else {
                 alert('Booking canceled. Please provide your email and name.');
