@@ -139,7 +139,7 @@
 <body>
 
 <header>
-    <h1>Your Home Rentals</h1>
+    <h1>Royal Wedding Elegance</h1>
     <nav>
         <a href="#catalog" id="catalogBtn">Catalog</a>
         <a href="#services" id="servicesBtn">Services</a>
@@ -256,13 +256,15 @@
     <div class="modal-content">
         <span class="close" id="closeContact">&times;</span>
         <h2>Contact Us</h2>
-        <p>Email: hello@dapperrentals.rw</p>
-        <p>Phone: +250 123 456 789</p>
+        <p>Email: irebene77@gmail.com</p>
+        <p>Phone: +250 783 217 215</p>
     </div>
 </div>
 
 <footer>
-    <p>© 2024 Dapper Rentals. All rights reserved.</p>
+    <p>© 2024 Royal Wedding Elegance. All rights reserved.</p>
+    <p>@Designer:IRABIZI Ebenezer</p>
+    <p>Email: irebene77@gmail.com</p>
 </footer>
 
 <script>
@@ -355,7 +357,7 @@
                 })
                 .catch(error => {
                     console.error('Error:', error);
-                    alert('There was an error booking your item. Please try again.');
+                    alert('There was an error booking your item. Please try to call this number 0783 217 215 for further help.');
                 });
             } else {
                 alert('Booking canceled. Please provide your email and name.');
