@@ -106,9 +106,9 @@
 <header>
     <h1>Your Home Rentals</h1>
     <nav>
-        <a href="#catalog">Catalog</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="#catalog" id="catalogBtn">Catalog</a>
+        <a href="#services" id="servicesBtn">Services</a>
+        <a href="#Contact" id="ContactBtn">Contact</a>
         <a href="#book" class="cta-button">Book Now</a>
     </nav>
 </header>
@@ -180,12 +180,120 @@
     </ul>
 </div>
 
+<!-- Modal for Catalog -->
+<div id="catalogModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeCatalog">&times;</span>
+        <h2>Catalog</h2>
+        <ul>
+            <li>1. Imikenyero</li>
+            <li>2. Rugabire</li>
+            <li>3. Suit</li>
+            <li>4. Ibiseke</li>
+            <li>5. Inkoni</li>
+            <li>6. Ingofero</li>
+            <li>7. Amakanzu y' Abakobwa</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal for Services -->
+<div id="ServicesModal" class="Services">
+    <div class="Services-content">
+        <span class="close" id="closeServices">&times;</span>
+        <h2>Services</h2>
+        <ul>
+            <li>1. Wedding Decorations</li>
+            <li>2. Celemonial Decoration</li>
+            <li>3. Doorstep delivery</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal for Contact -->
+<div id="ContactModal" class="Contact">
+    <div class="modal-content">
+        <span class="close" id="closeContact">&times;</span>
+        <h2>Contact</h2>
+        <ul>
+            <li>OTHER CONTACTS</li>
+            <li>1. Phone: +250 783 217 215</li>
+            <li>Email: irebene7@gmail.com</li>
+            <li>2. Phone: +250 783 217 215</li>
+            <li>Email: irebene7@gmail.com</li>
+            <li>3. Phone: +250 783 217 215</li>
+            <li>Email: irebene7@gmail.com</li>
+        </ul>
+    </div>
+</div>
+
 <footer>
     <h3>Contact Us</h3>
-    <p>Email: hello@dapperrentals.rw</p>
-    <p>Phone: +250 123 456 789</p>
+    <p>Email: irebene7@gmail.com</p>
+    <p>Email: irebene77@gmail.com</p>
+    <p>Phone: +250 783 217 215</p>
     <p>© 2024 Dapper Rentals. All rights reserved.</p>
 </footer>
+
+<script>
+    // Get modal elements
+    var catalogModal = document.getElementById("catalogModal");
+    var servicesModal = document.getElementById("servicesModal");
+    var ContactModal = document.getElementById("ContactModal");
+
+    // Get button elements
+    var catalogBtn = document.getElementById("catalogBtn");
+    var servicesBtn = document.getElementById("servicesBtn");
+    var ContactBtn = document.getElementById("ContactBtn");
+
+    // Get close elements
+    var closeCatalog = document.getElementById("closeCatalog");
+    var closeServices = document.getElementById("closeServices");
+    var closeContact = document.getElementById("closeContact");
+
+    // Open catalog modal
+    catalogBtn.onclick = function() {
+        catalogModal.style.display = "block";
+    }
+
+    // Open services modal
+    servicesBtn.onclick = function() {
+        servicesModal.style.display = "block";
+    }
+
+    // Open services modal
+    ContactBtn.onclick = function() {
+        ContactModal.style.display = "block";
+    }
+    
+    // Close catalog modal
+    closeCatalog.onclick = function() {
+        catalogModal.style.display = "none";
+    }
+
+    // Close services modal
+    closeServices.onclick = function() {
+        servicesModal.style.display = "none";
+    }
+
+    // Close services modal
+    closeContact.onclick = function() {
+        ContactModal.style.display = "none";
+    }
+    
+    // Close modal when clicking outside of it
+    window.onclick = function(event) {
+        if (event.target == catalogModal) {
+            catalogModal.style.display = "none";
+        }
+        if (event.target == servicesModal) {
+            servicesModal.style.display = "none";
+        }
+        if (event.target == ContactModal) {
+            ContactModal.style.display = "none";
+        }
+    }
+</script>
 
 </body>
 </html>
