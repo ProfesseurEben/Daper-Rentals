@@ -99,6 +99,41 @@
             list-style-type: none;
             padding: 0;
         }
+        /* Modal Styles */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0,0.4); 
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; 
+            max-width: 500px;
+            text-align: left; 
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -108,7 +143,7 @@
     <nav>
         <a href="#catalog" id="catalogBtn">Catalog</a>
         <a href="#services" id="servicesBtn">Services</a>
-        <a href="#Contact" id="ContactBtn">Contact</a>
+        <a href="#contact" id="contactBtn">Contact</a>
         <a href="#book" class="cta-button">Book Now</a>
     </nav>
 </header>
@@ -134,36 +169,42 @@
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/B.jpg?raw=true" alt="Wedding Suits">
         <h3>Wedding Suits</h3>
         <p>Stylish and elegant suits for your special day.</p>
+    <button class="book-button" data-item="Wedding Suits">Book Now</button>
     </div>
 
 <div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/c.jpg?raw=true" alt="Bride Dresses">
         <h3>Bride Dresses</h3>
         <p>Stylish and elegant bride dresses for your special day.</p>
+    <button class="book-button" data-item="Bride Dresses">Book Now</button>
     </div>
 
 <div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/d.jpg?raw=true" alt="Traditional Outfits">
         <h3>Traditional Outfits</h3>
         <p>Authentic Rwandan cultural attire.</p>
+    <button class="book-button" data-item="Traditional Outfits">Book Now</button>
     </div>
 
 <div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/Suits.png?raw=true" alt="Men's Suits">
         <h3>Men's Suits</h3>
         <p>Stylish and elegant men's suits for your special day.</p>
+    <button class="book-button" data-item="Men's Suits">Book Now</button>
     </div>
 
 <div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/h.jpg?raw=true" alt="Women's Dresses">
         <h3>Women's Dresses</h3>
         <p>Stylish and elegant women's dresses for your special day.</p>
+    <button class="book-button" data-item="Women's Dresses">Book Now</button>
     </div>
 
 <div class="card">
         <img src="https://github.com/ProfesseurEben/Dapper-Rentals-/blob/main/f.png?raw=true" alt="Accessories">
         <h3>Accessories</h3>
         <p>Complete your look with our range of accessories.</p>
+    <button class="book-button" data-item="Accessories">Book Now</button>
     </div>
 
 </div>
@@ -211,27 +252,16 @@
 </div>
 
 <!-- Modal for Contact -->
-<div id="ContactModal" class="Contact">
+<div id="contactModal" class="modal">
     <div class="modal-content">
         <span class="close" id="closeContact">&times;</span>
-        <h2>Contact</h2>
-        <ul>
-            <li>OTHER CONTACTS</li>
-            <li>1. Phone: +250 783 217 215</li>
-            <li>Email: irebene7@gmail.com</li>
-            <li>2. Phone: +250 783 217 215</li>
-            <li>Email: irebene7@gmail.com</li>
-            <li>3. Phone: +250 783 217 215</li>
-            <li>Email: irebene7@gmail.com</li>
-        </ul>
+        <h2>Contact Us</h2>
+        <p>Email: hello@dapperrentals.rw</p>
+        <p>Phone: +250 123 456 789</p>
     </div>
 </div>
 
 <footer>
-    <h3>Contact Us</h3>
-    <p>Email: irebene7@gmail.com</p>
-    <p>Email: irebene77@gmail.com</p>
-    <p>Phone: +250 783 217 215</p>
     <p>© 2024 Dapper Rentals. All rights reserved.</p>
 </footer>
 
@@ -239,12 +269,12 @@
     // Get modal elements
     var catalogModal = document.getElementById("catalogModal");
     var servicesModal = document.getElementById("servicesModal");
-    var ContactModal = document.getElementById("ContactModal");
+    var contactModal = document.getElementById("contactModal");
 
     // Get button elements
     var catalogBtn = document.getElementById("catalogBtn");
     var servicesBtn = document.getElementById("servicesBtn");
-    var ContactBtn = document.getElementById("ContactBtn");
+    var contactBtn = document.getElementById("contactBtn");
 
     // Get close elements
     var closeCatalog = document.getElementById("closeCatalog");
@@ -261,11 +291,11 @@
         servicesModal.style.display = "block";
     }
 
-    // Open services modal
-    ContactBtn.onclick = function() {
-        ContactModal.style.display = "block";
+    // Open contact modal
+    contactBtn.onclick = function() {
+        contactModal.style.display = "block";
     }
-    
+
     // Close catalog modal
     closeCatalog.onclick = function() {
         catalogModal.style.display = "none";
@@ -276,11 +306,11 @@
         servicesModal.style.display = "none";
     }
 
-    // Close services modal
+    // Close contact modal
     closeContact.onclick = function() {
-        ContactModal.style.display = "none";
+        contactModal.style.display = "none";
     }
-    
+
     // Close modal when clicking outside of it
     window.onclick = function(event) {
         if (event.target == catalogModal) {
@@ -289,10 +319,21 @@
         if (event.target == servicesModal) {
             servicesModal.style.display = "none";
         }
-        if (event.target == ContactModal) {
-            ContactModal.style.display = "none";
+        if (event.target == contactModal) {
+            contactModal.style.display = "none";
         }
     }
+
+    // Booking functionality
+    document.querySelectorAll('.book-button').forEach(button => {
+        button.onclick = function() {
+            const item = this.getAttribute('data-item');
+            const bookings = JSON.parse(localStorage.getItem('bookings')) || [];
+            bookings.push({ item: item, date: new Date().toISOString() });
+            localStorage.setItem('bookings', JSON.stringify(bookings));
+            alert(item + ' has been booked! It will be saved for one year.');
+        };
+    });
 </script>
 
 </body>
