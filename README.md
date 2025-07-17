@@ -324,14 +324,42 @@
         }
     }
 
-    // Booking functionality
+   // Booking functionality
     document.querySelectorAll('.book-button').forEach(button => {
         button.onclick = function() {
             const item = this.getAttribute('data-item');
-            const bookings = JSON.parse(localStorage.getItem('bookings')) || [];
-            bookings.push({ item: item, date: new Date().toISOString() });
-            localStorage.setItem('bookings', JSON.stringify(bookings));
-            alert(item + ' has been booked! It will be saved for one year.');
+            const email = prompt("Please enter your email address:");
+            const name = prompt("Please enter your name:");
+
+            if (email && name) {
+                const bookingDetails = {
+                    item: item,
+                    email: email,
+                    name: name,
+                    date: new Date().toISOString()
+                };
+
+                fetch('https://your-server-url.com/book', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(bookingDetails)
+                })
+                .then(response => {
+                    if (response.ok) {
+                        alert(`${item} has been booked! You will receive a confirmation email.`);
+                    } else {
+                        alert('There was an error booking your item. Please try again.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('There was an error booking your item. Please try again.');
+                });
+            } else {
+                alert('Booking canceled. Please provide your email and name.');
+            }
         };
     });
 </script>
