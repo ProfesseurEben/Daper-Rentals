@@ -71,10 +71,11 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             margin: 10px;
-            width: 300px; /* Fixed width for cards */
+            width: calc(33.33% - 40px); /* 3 per row, accounting for margin */
             text-align: center;
             overflow: hidden;
             transition: transform 0.3s;
+            box-sizing: border-box;
         }
         .card:hover {
             transform: scale(1.05);
@@ -133,6 +134,10 @@
             color: black;
             text-decoration: none;
             cursor: pointer;
+            @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
         }
     </style>
 </head>
