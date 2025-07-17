@@ -261,10 +261,12 @@
     </div>
 </div>
 
+
+
 <footer>
     <p>© 2024 Royal Wedding Elegance. All rights reserved.</p>
-    <p>@Designer:IRABIZI Ebenezer</p>
-    <p>Email: irebene77@gmail.com</p>
+    <p>@Designer: IRABIZI Ebenezer</p>
+    <p>E-mail: irebene77@gmail.com</p>
 </footer>
 
 <script>
