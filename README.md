@@ -263,6 +263,8 @@
         <h2>Contact Us</h2>
         <p>Email: irebene77@gmail.com</p>
         <p>Phone: +250 783 217 215</p>
+        <p>Phone: +250 780 553 491</p>
+        <p>Phone: +250 727 372 887</p>
     </div>
 </div>
 
