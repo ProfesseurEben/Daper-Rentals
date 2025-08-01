@@ -146,7 +146,7 @@
 <header>
     <h1>Royal Wedding Elegance</h1>
     <nav>
-        <a href="#catalog" id="catalogBtn">Catalog</a>
+        <a href="#catalogue" id="catalogueBtn">Catalogue</a>
         <a href="#services" id="servicesBtn">Services</a>
         <a href="#contact" id="contactBtn">Contact</a>
         <a href="#book" class="cta-button">Book Now</a>
@@ -226,7 +226,7 @@
     </ul>
 </div>
 
-<!-- Modal for Catalog -->
+<!-- Modal for Catalogue -->
 <div id="catalogueModal" class="modal">
     <div class="modal-content">
         <span class="close" id="closeCatalogue">&times;</span>
@@ -271,24 +271,24 @@
 
 
 <footer>
-    <p>© 2024 Royal Wedding Elegance. All rights reserved.</p>
     <p>@Designer: IRABIZI Ebenezer</p>
     <p>E-mail: irebene77@gmail.com</p>
+    <p>© 2024 Royal Wedding Elegance. All rights reserved.</p>
 </footer>
 
 <script>
     // Get modal elements
-    var catalogueModal = document.getElementById("catalogModal");
+    var catalogueModal = document.getElementById("catalogueModal");
     var servicesModal = document.getElementById("servicesModal");
     var contactModal = document.getElementById("contactModal");
 
     // Get button elements
-    var catalogueBtn = document.getElementById("catalogBtn");
+    var catalogueBtn = document.getElementById("catalogueBtn");
     var servicesBtn = document.getElementById("servicesBtn");
     var contactBtn = document.getElementById("contactBtn");
 
     // Get close elements
-    var closeCatalogue = document.getElementById("closeCatalog");
+    var closeCatalogue = document.getElementById("closeCatalogue");
     var closeServices = document.getElementById("closeServices");
     var closeContact = document.getElementById("closeContact");
 
