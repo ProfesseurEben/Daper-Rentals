@@ -227,10 +227,10 @@
 </div>
 
 <!-- Modal for Catalog -->
-<div id="catalogModal" class="modal">
+<div id="catalogueModal" class="modal">
     <div class="modal-content">
-        <span class="close" id="closeCatalog">&times;</span>
-        <h2>Catalog</h2>
+        <span class="close" id="closeCatalogue">&times;</span>
+        <h2>Catalogue</h2>
         <ul>
             <li>1. Imikenyero</li>
             <li>2. Rugabire</li>
@@ -278,23 +278,23 @@
 
 <script>
     // Get modal elements
-    var catalogModal = document.getElementById("catalogModal");
+    var catalogueModal = document.getElementById("catalogModal");
     var servicesModal = document.getElementById("servicesModal");
     var contactModal = document.getElementById("contactModal");
 
     // Get button elements
-    var catalogBtn = document.getElementById("catalogBtn");
+    var catalogueBtn = document.getElementById("catalogBtn");
     var servicesBtn = document.getElementById("servicesBtn");
     var contactBtn = document.getElementById("contactBtn");
 
     // Get close elements
-    var closeCatalog = document.getElementById("closeCatalog");
+    var closeCatalogue = document.getElementById("closeCatalog");
     var closeServices = document.getElementById("closeServices");
     var closeContact = document.getElementById("closeContact");
 
-    // Open catalog modal
-    catalogBtn.onclick = function() {
-        catalogModal.style.display = "block";
+    // Open catalogue modal
+    catalogueBtn.onclick = function() {
+        catalogueModal.style.display = "block";
     }
 
     // Open services modal
@@ -307,9 +307,9 @@
         contactModal.style.display = "block";
     }
 
-    // Close catalog modal
-    closeCatalog.onclick = function() {
-        catalogModal.style.display = "none";
+    // Close catalogue modal
+    closeCatalogue.onclick = function() {
+        catalogueModal.style.display = "none";
     }
 
     // Close services modal
@@ -324,8 +324,8 @@
 
     // Close modal when clicking outside of it
     window.onclick = function(event) {
-        if (event.target == catalogModal) {
-            catalogModal.style.display = "none";
+        if (event.target == catalogueModal) {
+            catalogueModal.style.display = "none";
         }
         if (event.target == servicesModal) {
             servicesModal.style.display = "none";
